@@ -1,11 +1,64 @@
-$(window).scroll(function() {
-    $('nav').toggleClass('navscrolled', $(this).scrollTop() > 300);
-    $('nav .menubarpages').toggleClass('scrolled', $(this).scrollTop() > 300);
-    $('nav .menubarcontact').toggleClass('scrolled', $(this).scrollTop() > 300);
-});
+
+//On body load hide elements
+
+function hide() {
+    bar.style.opacity = "0.001"
+    document.getElementById("explore").style.display = "none"
+    document.getElementById("title").style.display = "none"
+    document.getElementById("description").style.display = "none"
+}
 
 
-$('.gotoabout').on('click', function() {
-    $('html, body').animate({ scrollTop: $(this.hash).offset().top - 50 }, 1000);
-    return false;
-});
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var bar = document.getElementById("bar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= 21) {
+    navbar.classList.add("sticky")
+    bar.classList.add("shadow")
+    bar.style.opacity = "1"
+  } else {
+    navbar.classList.remove("sticky");
+    bar.classList.remove("shadow");
+    bar.style.opacity = "0.001"
+  }
+  fadein();
+}
+
+var recent = document.getElementById("tile");
+
+function fadein () { 
+    if (window.pageYOffset == 0) {
+        bar.style.opacity = "0.001"
+        recent.classList.remove("recent")
+        document.getElementById("explore").style.display = "none"
+        document.getElementById("title").style.display = "none"
+    }
+    if (window.pageYOffset >= 101) {
+
+        if (window.pageYOffset < 701) {
+
+        recent.classList.add("recent")
+        document.getElementById("explore").style.display = "block"
+        document.getElementById("title").style.display = "block"
+      } 
+    } travel();
+}
+
+function travel () { 
+    if (window.pageYOffset >= 702) {
+        document.getElementById("tile").style.marginLeft = "5vw"
+        document.getElementById("tile").style.top = "140vh"
+
+        document.getElementById("description").style.display = "block"
+
+      } else {
+        document.getElementById("tile").style.marginLeft = "45vw"
+        document.getElementById("tile").style.top = "90vh"
+        document.getElementById("description").style.display = "none"
+      }
+}
