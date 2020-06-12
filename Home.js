@@ -2,6 +2,7 @@
 //On body load hide elements
 
 function hide() {
+
     bar.style.opacity = "0.001"
     document.getElementById("content").style.display = "none"
     document.getElementById("explore").style.display = "none"
@@ -37,6 +38,7 @@ function fadein () {
     if (window.pageYOffset == 0) {
         bar.style.opacity = "0.001"
         recent.classList.remove("recent")
+        document.getElementById("tile").style.display = "none"
         document.getElementById("content").style.display = "none"
         document.getElementById("explore").style.display = "none"
         document.getElementById("title").style.display = "none"
@@ -46,23 +48,28 @@ function fadein () {
         if (window.pageYOffset < 701) {
 
         recent.classList.add("recent")
+        document.getElementById("tile").style.display = "block"
         document.getElementById("content").style.display = "block"
         document.getElementById("explore").style.display = "block"
         document.getElementById("title").style.display = "block"
-      } 
-    } travel();
+      } else {
+        recent.classList.remove("recent")
+      }
+    } travelphase2();
 }
 
-function travel () { 
+function travelphase2 () { 
     if (window.pageYOffset >= 702) {
-        document.getElementById("tile").style.marginLeft = "5vw"
-        document.getElementById("tile").style.top = "135vh"
+        recent.classList.add("phase2")
+        document.getElementById("tile").style.marginLeft = "0vw"
+        document.getElementById("tile").style.top = "0vh"
         document.getElementById("readmore").style.display = "block"
         document.getElementById("description").style.display = "block"
 
       } else {
+        recent.classList.remove("phase2")
+        document.getElementById("tile").style.top = "-50vh"
         document.getElementById("tile").style.marginLeft = "45vw"
-        document.getElementById("tile").style.top = "90vh"
         document.getElementById("readmore").style.display = "none"
         document.getElementById("description").style.display = "none"
       }
