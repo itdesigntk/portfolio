@@ -13,6 +13,8 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 70px;
   font-weight: 500;
+  color: rgb(48, 48, 48);
+  filter: opacity(90%);
 }
  #details {
   position: absolute;
@@ -31,7 +33,7 @@ body {
   top: 130vh;
   width: 85vw;
   height: 53.4vh;
-  border:rgba(170, 38, 38, 0.0001);
+  border:rgba(125, 159, 175, 0.0005);
   border-style: solid;
 }
 #title {
@@ -47,7 +49,7 @@ body {
   position: relative;
   left: 0px;
   margin-left: 45vw;
-  top: 0vh;
+  top: -50vh;
   width: 40vw;
   height: 25vw;
   background-color:rgb(206, 221, 227);
@@ -66,10 +68,11 @@ body {
   position: absolute;
   left: 0px;
   margin-left: 0vw;
-  top: 0vh;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   width: 40vw;
-  min-width: 600px;
-  min-height: 400px;
+  max-width: 600px;
   height: 25vw;
   background-color:rgb(206, 221, 227);
   box-shadow:0 5px 10px 0 rgba(92, 92, 92, 0.35);
@@ -114,7 +117,10 @@ body {
 #description {
   position: absolute;
   right: 3vw;
-  top: 10vh;
+  top: 45%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 40vw;
   width: 400px;
   transition: 0.6s ease-in;
   font-family: 'Raleway', sans-serif;
@@ -175,7 +181,9 @@ body {
 }
 #readmore {
   position: absolute;
-  top: 44vh;
+  top: 85%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   right: 10vh;
   width: 6.5vw;
   height: 6.5vh;
@@ -243,7 +251,9 @@ body {
 }
 #readmore:hover {
   cursor: pointer;
-  top: 43.5vh;
+  top: 84%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 #navbar {
   overflow: visible;
@@ -296,22 +306,22 @@ body {
   color: white;
 }
 #navbar a.about {
-  margin-left: 12vw;
+  margin-left: 175px;
   font-family: 'Raleway', sans-serif;  
   color: white;
 }
 #navbar a.portfolio {
-  margin-left: 20vw;
+  margin-left: 280px;
   font-family: 'Raleway', sans-serif;  
   color: white;
 }
 #navbar a.projects {
-  margin-left:30vw;
+  margin-left: 410px;
   font-family: 'Raleway', sans-serif;  
   color: white;
 }
 #navbar a.contact {
-  margin-left: 87vw;
+  margin-left: 90%;
   font-family: 'Raleway', sans-serif;  
   color: white;
 }
