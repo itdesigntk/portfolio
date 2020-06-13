@@ -62,7 +62,7 @@ function travelphase2 () {
     if (window.pageYOffset >= 702) {
         recent.classList.add("phase2")
         document.getElementById("tile").style.marginLeft = "0vw"
-        document.getElementById("tile").style.top = "0vh"
+        document.getElementById("tile").style.top = "50%"
         document.getElementById("readmore").style.display = "block"
         document.getElementById("description").style.display = "block"
 
