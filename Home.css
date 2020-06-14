@@ -26,6 +26,18 @@ body {
   background-size: cover;
   background-image: url("https://i.ibb.co/LP9v6M4/50-Beautiful-and-Minimalist-Presentation-Backgrounds-037.jpg");
 }
+@media only screen and (max-width: 1070px) {
+  #details2 {
+    position: absolute;
+    left: 0px;
+    top: 200vh;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://i.ibb.co/LP9v6M4/50-Beautiful-and-Minimalist-Presentation-Backgrounds-037.jpg");
+  }
+}
 #con {
   position: relative;
   left: 0px;
@@ -128,6 +140,22 @@ body {
   word-spacing: 0.1em;
   line-height: 1.5em;
 }
+@media only screen and (max-width: 1070px) {
+  #description {
+    position: absolute;
+    left: 30%;
+    top: 130%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 40vw;
+    width: 400px;
+    transition: 0.6s ease-in;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0em;
+    word-spacing: 0.1em;
+    line-height: 1.5em;  
+  }
+}
 #description {
   animation: fadeIn ease 2s;
   -webkit-animation: fadeIn ease 2s;
@@ -198,12 +226,33 @@ body {
   letter-spacing: 0.05em;
   box-shadow:0 5px 10px 0 rgba(0, 0, 0, 0.15);
 }
-#readmore {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
+@media only screen and (max-width: 1070px) {
+  #readmore {
+    position: absolute;
+    top: 175%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 65%;
+    width: 6.5vw;
+    height: 6.5vh;
+    max-height: 50px;
+    min-width: 90px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s ease-in;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    box-shadow:0 5px 10px 0 rgba(0, 0, 0, 0.15);  
+  }
+}
+  #readmore {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
 }
 @keyframes fadeIn {
   0% {
@@ -255,6 +304,14 @@ body {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+@media only screen and (max-width: 1070px) {
+  #readmore:hover {
+    cursor: pointer;
+    top: 174%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);    
+  }
+}
 #navbar {
   overflow: visible;
 }
@@ -302,6 +359,7 @@ body {
 }
 
 #navbar a.name {
+  margin-left: 45px;
   font-family: 'Raleway', sans-serif;  
   color: white;
 }
@@ -321,7 +379,8 @@ body {
   color: white;
 }
 #navbar a.contact {
-  margin-left: 90%;
+  position: absolute;
+  right: 60px;
   font-family: 'Raleway', sans-serif;  
   color: white;
 }
