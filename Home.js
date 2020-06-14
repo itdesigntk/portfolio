@@ -61,10 +61,22 @@ function fadein () {
 function travelphase2 () { 
     if (window.pageYOffset >= 702) {
         recent.classList.add("phase2")
-        document.getElementById("tile").style.marginLeft = "0vw"
+
+
+
+        var x = window.matchMedia("(max-width: 1070px)")
+
+        if (x.matches) {
+          document.getElementById("tile").style.marginLeft = "30%";
+        } else {
+          document.getElementById("tile").style.marginLeft = "0vw";
+        }
+       
         document.getElementById("tile").style.top = "50%"
         document.getElementById("readmore").style.display = "block"
         document.getElementById("description").style.display = "block"
+
+
 
       } else {
         recent.classList.remove("phase2")
