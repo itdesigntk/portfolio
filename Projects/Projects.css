@@ -25,12 +25,17 @@ body {
     left: 20px;
     width: 380px;
     height: 380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://i.ibb.co/YN9xqyT/isaactsaiweb.png);
     background-color: rgb(236, 236, 236);
     transition: 0.5s;
+    cursor: pointer;
 }
 #tile1:hover {
     top: 15px;
-    box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
+    box-shadow:0 10px 15px 0 rgba(0, 0, 0, 0.35); 
 }
 #tile2 {
     position: absolute;
@@ -38,8 +43,11 @@ body {
     left: 420px;
     width: 380px;
     height: 380px;
+    background-size: contain;
+    background-image: url(https://i.etsystatic.com/8105101/r/il/56d763/1570526061/il_794xN.1570526061_syfj.jpg);
     background-color: rgb(236, 236, 236);
     transition: 0.5s;
+    cursor: pointer;
 }
 #tile2:hover {
     top: 15px;
@@ -51,8 +59,11 @@ body {
     left: 820px;
     width: 380px;
     height: 380px;
+    background-size: contain;
+    background-image: url();
     background-color: rgb(236, 236, 236);
     transition: 0.5s;
+    cursor: pointer;
 }
 #tile3:hover {
     top: 15px;
@@ -66,6 +77,7 @@ body {
     height: 380px;
     background-color: rgb(236, 236, 236);
     transition: 0.5s;
+    cursor: pointer;
 }
 #tile4:hover {
     top: 415px;
@@ -79,6 +91,7 @@ body {
     height: 380px;
     background-color: rgb(236, 236, 236);;
     transition: 0.5s;
+    cursor: pointer;
 }
 #tile5:hover {
     top: 415px;
@@ -91,6 +104,7 @@ body {
     width: 380px;
     height: 380px;
     background-color: rgb(236, 236, 236);
+    cursor: pointer;
     transition: 0.5s;
 }
 #tile6:hover {
@@ -105,6 +119,7 @@ body {
     height: 380px;
     background-color: rgb(236, 236, 236);
     transition: 0.5s;
+    cursor: pointer;
 }
 #tile7:hover {
     top: 815px;
@@ -118,6 +133,7 @@ body {
     height: 380px;
     background-color: rgb(236, 236, 236);
     transition: 0.5s;
+    cursor: pointer;
 }
 #tile8:hover {
     top: 815px;
@@ -131,6 +147,7 @@ body {
     height: 380px;
     background-color: rgb(236, 236, 236);
     transition: 0.5s;
+    cursor: pointer;
 }
 #tile9:hover {
     top: 815px;
