@@ -143,10 +143,9 @@ body {
 @media only screen and (max-width: 1070px) {
   #description {
     position: absolute;
-    left: 30%;
+    left: 50%;
+    margin-left: -180px;
     top: 130%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
     width: 40vw;
     width: 400px;
     transition: 0.6s ease-in;
@@ -230,9 +229,8 @@ body {
   #readmore {
     position: absolute;
     top: 175%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: 65%;
+    left: 70%;
+    margin-left: -50px;
     width: 6.5vw;
     height: 6.5vh;
     max-height: 50px;
