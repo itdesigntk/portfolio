@@ -1,0 +1,222 @@
+body {
+   background-image: url(https://i.pinimg.com/originals/ba/ea/d1/baead17e1cfaef7d7425bff3570a4f1e.jpg);
+}
+#backflow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100vh;
+    background-image: url(https://i.ibb.co/j4PRb2v/image-1.png);
+}
+.ninebynine {
+    position: relative;
+    top: 200px;
+    left: 50%;
+    margin-left: -610px;
+    width: 1220px;
+    height: 1220px;
+    background-color: none;
+    border: rgba(0, 0, 0, 0.001);
+    border-style: solid;
+}
+#tile1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 380px;
+    height: 380px;
+    background-color: rgb(236, 236, 236);
+    transition: 0.5s;
+}
+#tile1:hover {
+    top: 15px;
+    box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
+}
+#tile2 {
+    position: absolute;
+    top: 20px;
+    left: 420px;
+    width: 380px;
+    height: 380px;
+    background-color: rgb(236, 236, 236);
+    transition: 0.5s;
+}
+#tile2:hover {
+    top: 15px;
+    box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
+}
+#tile3 {
+    position: absolute;
+    top: 20px;
+    left: 820px;
+    width: 380px;
+    height: 380px;
+    background-color: rgb(236, 236, 236);
+    transition: 0.5s;
+}
+#tile3:hover {
+    top: 15px;
+    box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
+}
+#tile4 {
+    position: absolute;
+    top: 420px;
+    left: 20px;
+    width: 380px;
+    height: 380px;
+    background-color: rgb(236, 236, 236);
+    transition: 0.5s;
+}
+#tile4:hover {
+    top: 415px;
+    box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
+}
+#tile5 {
+    position: absolute;
+    top: 420px;
+    left: 420px;
+    width: 380px;
+    height: 380px;
+    background-color: rgb(236, 236, 236);;
+    transition: 0.5s;
+}
+#tile5:hover {
+    top: 415px;
+    box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
+}
+#tile6 {
+    position: absolute;
+    top: 420px;
+    left: 820px;
+    width: 380px;
+    height: 380px;
+    background-color: rgb(236, 236, 236);
+    transition: 0.5s;
+}
+#tile6:hover {
+    top: 415px;
+    box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
+}
+#tile7 {
+    position: absolute;
+    top: 820px;
+    left: 20px;
+    width: 380px;
+    height: 380px;
+    background-color: rgb(236, 236, 236);
+    transition: 0.5s;
+}
+#tile7:hover {
+    top: 815px;
+    box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
+}
+#tile8 {
+    position: absolute;
+    top: 820px;
+    left: 420px;
+    width: 380px;
+    height: 380px;
+    background-color: rgb(236, 236, 236);
+    transition: 0.5s;
+}
+#tile8:hover {
+    top: 815px;
+    box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
+}
+#tile9 {
+    position: absolute;
+    top: 820px;
+    left: 820px;
+    width: 380px;
+    height: 380px;
+    background-color: rgb(236, 236, 236);
+    transition: 0.5s;
+}
+#tile9:hover {
+    top: 815px;
+    box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
+}
+#navbar {
+    overflow: visible;
+  }
+  #bar {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    margin-left: 1.5vw;
+    width: 95vw;
+    height: 60px;
+    background-color: rgb(246, 248, 248);
+    border-radius: 5px;
+  }
+  .shadow {
+    transition: ease 0.2s;
+    box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  }
+  
+  #navbar a {
+    position: absolute;  
+    z-index: 1000;
+    margin-left: 3vw;
+    display: block;
+    color: #a8a8a8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  #navbuttons a{
+    position: absolute;  
+    z-index: 1000;
+    top: 25px;
+    margin-left: 3vw;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  #navbar a:hover {
+    z-index: 1000;
+    background-color: rgb(228, 228, 228);
+  }
+  
+  #navbar a.name {
+    margin-left: 45px;
+    font-family: 'Raleway', sans-serif;  
+    color: rgb(109, 109, 109);
+  }
+  #navbar a.about {
+    margin-left: 175px;
+    font-family: 'Raleway', sans-serif;  
+    color: rgb(109, 109, 109);
+  }
+  #navbar a.portfolio {
+    margin-left: 280px;
+    font-family: 'Raleway', sans-serif;  
+    color: rgb(109, 109, 109);
+  }
+  #navbar a.projects {
+    margin-left: 410px;
+    font-family: 'Raleway', sans-serif;  
+    color: rgb(109, 109, 109);
+  }
+  #navbar a.contact {
+    position: absolute;
+    right: 60px;
+    font-family: 'Raleway', sans-serif;  
+    color: rgb(109, 109, 109);
+  }
+  .sticky {
+    position: fixed;
+    top: -5px;
+    width: 100%;
+    
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  .content {
+    padding: 16px;
+  }
