@@ -9,18 +9,20 @@
     <link rel="stylesheet" href="Home.css">  
 </head>
 <body onload="hide()">
-    <div id="epic">EPIC.</div>  
+    <div id="epic">EPIC</div>
+    <div id="adventures">ADVENTURES</div>  
+    <div id="everywhere">EVERYWHERE.</div>
+
+    <button id="learn" onclick="document.location = 'https://itdesigntk.github.io/portfolio/About/About'"><span>my life</span></button>
+
     <div id="details"></div>
     <div id="details2"></div>
 
     <div id="con">
 
         <div>
-            <div id="tile">
-                <div id="title">MOST RECENT PROJECT:</div>
-                <div id="content">
-                    <img id="imgcontent"src="https://i.ibb.co/RyvcDsm/weather-clear.png">
-                </div>
+            <div id="tile" onmouseover="exploreshow()" onmouseout="exploreout()">
+                <div id="title"></div>
                 <button id="explore" onclick="document.location = 'https://itdesigntk.github.io/portfolio/Portfolio/Portfolio'">Explore</button>
             </div>
         </div>
