@@ -202,28 +202,33 @@ body {
   #navbar a.name {
     margin-left: 45px;
     font-family: 'Raleway', sans-serif;  
-    color: rgb(109, 109, 109);
+    color: rgb(0, 0, 0);
   }
   #navbar a.about {
     margin-left: 175px;
     font-family: 'Raleway', sans-serif;  
-    color: rgb(109, 109, 109);
+    color: rgb(0, 0, 0);
   }
   #navbar a.portfolio {
     margin-left: 280px;
     font-family: 'Raleway', sans-serif;  
-    color: rgb(109, 109, 109);
+    color: rgb(0, 0, 0);
   }
   #navbar a.projects {
     margin-left: 410px;
     font-family: 'Raleway', sans-serif;  
-    color: rgb(109, 109, 109);
+    color: rgb(0, 0, 0);
+  }
+  #navbar a.gaming {
+    margin-left: 540px;
+    font-family:'Raleway', sans-serif; 
+    color: rgb(0, 0, 0);
   }
   #navbar a.contact {
     position: absolute;
     right: 60px;
     font-family: 'Raleway', sans-serif;  
-    color: rgb(109, 109, 109);
+    color: rgb(0, 0, 0);
   }
   .sticky {
     position: fixed;
