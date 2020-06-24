@@ -73,7 +73,6 @@ body {
   cursor: pointer;
   padding-right: 24px;
   padding-left:8px;
-  top: 84.8vh;
 }
 #learn:after {
   content: '»';
@@ -495,6 +494,11 @@ body {
 #navbar a.projects {
   margin-left: 410px;
   font-family: 'Raleway', sans-serif;  
+  color: rgb(0, 0, 0);
+}
+#navbar a.gaming {
+  margin-left: 540px;
+  font-family:'Raleway', sans-serif; 
   color: rgb(0, 0, 0);
 }
 #navbar a.contact {
