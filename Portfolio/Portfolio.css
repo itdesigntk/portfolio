@@ -1,21 +1,31 @@
 body {
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-037.jpg);
+    background-color: white;
  }
  #backflow {
      position: absolute;
      width: 100%;
      height: 100%;
-     top: 110vh;
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-037.jpg);
-     
+     left: 0px;
+     top: 200vh;
+     background-color: rgb(255, 255, 255);
+ }
+ .Headermain {
+   position: absolute;
+   top: 25vh;
+   left: 50%;
+   margin-left: -150px;
+   width: 300px;
+   height: 120px;
+   text-align: center;
+ }
+ #myportfolio {
+   font-family: 'Caveat', sans-serif;
+   font-size: 65px;
+   font-weight: 300;
  }
  .ninebynine {
-     position: relative;
-     top: 200px;
+     position: absolute;
+     top: 60vh;
      left: 50%;
      margin-left: -610px;
      width: 1220px;
@@ -74,7 +84,7 @@ body {
  }
  #tile4 {
      position: absolute;
-     top: 420px;
+     top: 560px;
      left: 20px;
      width: 380px;
      height: 380px;
@@ -85,12 +95,12 @@ body {
      cursor: pointer;
  }
  #tile4:hover {
-     top: 415px;
+     top: 555px;
      box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
  }
  #tile5 {
      position: absolute;
-     top: 420px;
+     top: 560px;
      left: 420px;
      width: 380px;
      height: 380px;
@@ -99,12 +109,12 @@ body {
      cursor: pointer;
  }
  #tile5:hover {
-     top: 415px;
+     top: 555px;
      box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
  }
  #tile6 {
      position: absolute;
-     top: 420px;
+     top: 560px;
      left: 820px;
      width: 380px;
      height: 380px;
@@ -113,12 +123,12 @@ body {
      transition: 0.5s;
  }
  #tile6:hover {
-     top: 415px;
+     top: 555px;
      box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
  }
  #tile7 {
      position: absolute;
-     top: 820px;
+     top: 1100px;
      left: 20px;
      width: 380px;
      height: 380px;
@@ -127,12 +137,12 @@ body {
      cursor: pointer;
  }
  #tile7:hover {
-     top: 815px;
+     top: 1095px;
      box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
  }
  #tile8 {
      position: absolute;
-     top: 820px;
+     top: 1100px;
      left: 420px;
      width: 380px;
      height: 380px;
@@ -141,40 +151,40 @@ body {
      cursor: pointer;
  }
  #tile8:hover {
-     top: 815px;
+     top: 1095px;
      box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
  }
  #tile9 {
-     position: absolute;
-     top: 820px;
-     left: 820px;
-     width: 380px;
-     height: 380px;
-     background-color: rgb(236, 236, 236);
-     transition: 0.5s;
-     cursor: pointer;
+    position: absolute;
+    top: 1100px;
+    left: 820px;
+    width: 380px;
+    height: 380px;
+    background-color: rgb(236, 236, 236);
+    transition: 0.5s;
+    cursor: pointer;
  }
  #tile9:hover {
-     top: 815px;
-     box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
+    top: 1095px;
+    box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.35); 
  }
  #navbar {
      overflow: visible;
    }
    #bar {
-     position: relative;
-     top: 20px;
-     left: 0px;
-     margin-left: 1.5vw;
-     width: 95vw;
-     height: 60px;
-     background-color: rgb(246, 248, 248);
-     border-radius: 5px;
-   }
-   .shadow {
-     transition: ease 0.2s;
-     box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.25);
-   }
+    position: relative;
+    top: 20px;
+    left: 0px;
+    margin-left: 1.5vw;
+    width: 95vw;
+    height: 60px;
+    background-color: rgb(246, 248, 248);
+    border-radius: 5px;
+  }
+  .shadow {
+    transition: ease 0.2s;
+    box-shadow:0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  }   
    
    #navbar a {
      position: absolute;  
