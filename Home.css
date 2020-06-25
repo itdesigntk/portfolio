@@ -124,6 +124,11 @@ body {
 #header1 {
   position: absolute;
   left: 25vw;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
 }
 #header1:hover {
   color: goldenrod;
@@ -132,6 +137,11 @@ body {
 #header2 {
   position: absolute;
   left: 50vw;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
 }
 #header2:hover {
   color: goldenrod;
@@ -140,6 +150,11 @@ body {
 #header3 {
   position: absolute;
   left: 75vw;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
 }
 #header3:hover {
   color: goldenrod;
@@ -152,6 +167,11 @@ body {
   width: 85px;
   height: 2px;
   background-color: goldenrod;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
 }
 #con {
   position: relative;
