@@ -27,3 +27,13 @@ function myFunction() {
     bar.style.opacity = "0.001"
   }
 }
+
+function chooseon() {
+  document.getElementById("overlaychoose").style.display = "block"
+  document.getElementById("choosetemplate").style.display = "block"
+}
+
+function chooseoff() {
+  document.getElementById("overlaychoose").style.display = "none"
+  document.getElementById("choosetemplate").style.display = "none"
+}
