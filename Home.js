@@ -52,7 +52,7 @@ function fadein () {
 
         if (window.pageYOffset < 701) {
 
-
+          
           var x = window.matchMedia("(max-width: 1070px)")
 
           if (x.matches) {
@@ -61,9 +61,11 @@ function fadein () {
           } 
 
         recent.classList.add("recent")
+
         document.getElementById("tile").style.display = "block"
         document.getElementById("explore").style.display = "block"
         document.getElementById("title").style.display = "block"
+
       } else {
         recent.classList.remove("recent")
       }
@@ -73,7 +75,6 @@ function fadein () {
 function travelphase2 () { 
     if (window.pageYOffset >= 702) {
         recent.classList.add("phase2")
-
 
 
         var x = window.matchMedia("(max-width: 1070px)")
@@ -89,14 +90,23 @@ function travelphase2 () {
         document.getElementById("tile").style.top = "50%"
         document.getElementById("readmore").style.display = "block"
         document.getElementById("description").style.display = "block"
-
-
+        document.getElementById("header1").style.display = "block"
+        document.getElementById("header2").style.display = "block"
+        document.getElementById("header3").style.display = "block"
+        document.getElementById("selectorline").style.display = "block"
 
       } else {
+      
         recent.classList.remove("phase2")
+
         document.getElementById("tile").style.top = "-50vh"
         document.getElementById("tile").style.marginLeft = "45vw"
         document.getElementById("readmore").style.display = "none"
         document.getElementById("description").style.display = "none"
+        document.getElementById("header1").style.display = "none"
+        document.getElementById("header2").style.display = "none"
+        document.getElementById("header3").style.display = "none"
+        document.getElementById("selectorline").style.display = "none"
+
       }
 }
