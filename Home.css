@@ -86,6 +86,9 @@ body {
   opacity: 1;
   right: 1.3vw;
 }
+#learn:focus {
+  outline: none;
+}
  #details {
   position: absolute;
   left: 0px;
@@ -429,6 +432,9 @@ body {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);    
   }
+}
+#readmore:focus {
+  outline: none;
 }
 #navbar {
   overflow: visible;
