@@ -8,9 +8,9 @@ function hide() {
     document.getElementById("title").style.display = "none"
     document.getElementById("description").style.display = "none"
     document.getElementById("readmore").style.display = "none"
+
+    
 }
-
-
 
 window.onscroll = function() {myFunction()};
 
