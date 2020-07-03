@@ -215,12 +215,12 @@ body {
   }
   
   #navbar a.name {
-    margin-left: 45px;
+    margin-left: 40px;
     font-family: 'Raleway', sans-serif;  
     color: rgb(0, 0, 0);
   }
   #navbar a.about {
-    margin-left: 175px;
+    margin-left: 185px;
     font-family: 'Raleway', sans-serif;  
     color: rgb(0, 0, 0);
   }
