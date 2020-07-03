@@ -40,9 +40,11 @@ body {
      left: 20px;
      width: 380px;
      height: 380px;
-     background-size: contain;
-     background-image: url(https://i.ibb.co/2kWts7D/Weather-Clear.png);
-     background-color: rgb(236, 236, 236);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-image: none;
+     background-color: rgb(188, 177, 160);
      transition: 0.5s;
      cursor: pointer;
  }
@@ -219,15 +221,15 @@ body {
    }
    
    #navbar a.name {
-     margin-left: 45px;
-     font-family: 'Raleway', sans-serif;  
-     color: rgb(0, 0, 0);
-   }
-   #navbar a.about {
-     margin-left: 175px;
-     font-family: 'Raleway', sans-serif;  
-     color: rgb(0, 0, 0);
-   }
+    margin-left: 40px;
+    font-family: 'Raleway', sans-serif;  
+    color: rgb(0, 0, 0);
+  }
+  #navbar a.about {
+    margin-left: 185px;
+    font-family: 'Raleway', sans-serif;  
+    color: rgb(0, 0, 0);
+  }
    #navbar a.portfolio {
      margin-left: 280px;
      font-family: 'Raleway', sans-serif;  
