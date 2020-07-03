@@ -525,6 +525,11 @@ body {
   font-family:'Raleway', sans-serif; 
   color: rgb(0, 0, 0);
 }
+#navbar a.feedback {
+  margin-left: 660px;
+  font-family:'Raleway', sans-serif; 
+  color: rgb(0, 0, 0);
+}
 #navbar a.contact {
   position: absolute;
   right: 3%;
