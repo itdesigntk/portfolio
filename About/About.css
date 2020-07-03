@@ -1,0 +1,102 @@
+#backflow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 200vh;
+    background-color: rgb(255, 255, 255);
+}
+#navbar {
+    overflow: visible;
+  }
+  #bar {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    margin-left: 1.5vw;
+    width: 95vw;
+    height: 60px;
+    background-color: rgb(246, 248, 248);
+    border-radius: 5px;
+  }
+  .shadow {
+    transition: ease 0.2s;
+    box-shadow:0 7px 20px 0 rgba(0,0,0,0.25);
+  }
+  
+  #navbar a {
+    position: absolute;  
+    z-index: 1000;
+    margin-left: 3vw;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  #navbuttons a{
+    position: absolute;  
+    z-index: 1000;
+    top: 25px;
+    margin-left: 3vw;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  #navbar a:hover {
+    z-index: 1000;
+    background-color: silver;
+  }
+  
+  #navbar a.name {
+    margin-left: 40px;
+    font-family: 'Raleway', sans-serif;  
+    color: rgb(0, 0, 0);
+  }
+  #navbar a.about {
+    margin-left: 185px;
+    font-family: 'Raleway', sans-serif;  
+    color: rgb(0, 0, 0);
+  }
+  #navbar a.portfolio {
+    margin-left: 280px;
+    font-family: 'Raleway', sans-serif;  
+    color: rgb(0, 0, 0);
+  }
+  #navbar a.projects {
+    margin-left: 410px;
+    font-family: 'Raleway', sans-serif;  
+    color: rgb(0, 0, 0);
+  }
+  #navbar a.gaming {
+    margin-left: 540px;
+    font-family:'Raleway', sans-serif; 
+    color: rgb(0, 0, 0);
+  }
+  #navbar a.feedback {
+    margin-left: 660px;
+    font-family:'Raleway', sans-serif; 
+    color: rgb(0, 0, 0);
+  }
+  #navbar a.contact {
+    position: absolute;
+    right: 3%;
+    font-family: 'Raleway', sans-serif;  
+    color: rgb(0, 0, 0);
+  }
+  .sticky {
+    position: fixed;
+    top: -5px;
+    width: 100%;
+    
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  .content {
+    padding: 16px;
+  }
