@@ -6,6 +6,9 @@
     top: 200vh;
     background-color: rgb(255, 255, 255);
 }
+.typeform-widget {
+  display: none;
+}
 #powered {
     position: absolute;
     top: 730px;
