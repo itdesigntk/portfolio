@@ -43,7 +43,7 @@ body {
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
-     background-image: none;
+     background-image: url("https://i.ibb.co/3SLvQKd/IMG-0781-1.jpg");
      background-color: rgb(188, 177, 160);
      transition: 0.5s;
      cursor: pointer;
@@ -59,7 +59,7 @@ body {
      width: 380px;
      height: 380px;
      background-size: contain;
-     background-image: url(https://i.ibb.co/0rP94bj/IMG-0744.jpg);
+     background-image: url(https://i.ibb.co/8DGQyFr/IMG-0798.jpg);
      background-color: rgb(236, 236, 236);
      transition: 0.5s;
      cursor: pointer;
@@ -75,7 +75,7 @@ body {
      width: 380px;
      height: 380px;
      background-size: contain;
-     background-image: url(https://i.ibb.co/jvnZbPY/70645733-135919321046713-2429941884673506526-n.jpg);
+     background-image: url(https://i.ibb.co/2kWts7D/Weather-Clear.png);
      background-color: rgb(236, 236, 236);
      transition: 0.5s;
      cursor: pointer;
@@ -91,7 +91,7 @@ body {
      width: 380px;
      height: 380px;
      background-size: contain;
-     background-image: url(https://i.ibb.co/rp9w6Gf/70997517-1181052828748245-4085072603278330813-n.jpg);
+     background-image: url(https://i.ibb.co/jvnZbPY/70645733-135919321046713-2429941884673506526-n.jpg);
      background-color: rgb(236, 236, 236);
      transition: 0.5s;
      cursor: pointer;
@@ -109,7 +109,7 @@ body {
      background-size: contain;
      background-repeat: no-repeat;
      background-position: center;
-     background-image: url(https://i.ibb.co/23zPmfP/IMG-0781.jpg);
+     background-image: url(https://i.ibb.co/rp9w6Gf/70997517-1181052828748245-4085072603278330813-n.jpg);
      background-color: rgb(236, 236, 236);;
      transition: 0.5s;
      cursor: pointer;
