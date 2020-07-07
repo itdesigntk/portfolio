@@ -9,9 +9,8 @@
 #images {
   position: absolute;
   left: 50%;
-  margin-left: -120px;
-  top: 100px;
-  filter: opacity(0.3)
+  margin-left: -144px;
+  top: 80px;
 }
 #maintitle {
   position: absolute;
@@ -133,7 +132,7 @@
     color: rgb(0, 0, 0);
   }
   #navbar a.about {
-    margin-left: 185px;
+    margin-left: 170px;
     font-family: 'Raleway', sans-serif;  
     color: rgb(0, 0, 0);
   }
@@ -147,13 +146,8 @@
     font-family: 'Raleway', sans-serif;  
     color: rgb(0, 0, 0);
   }
-  #navbar a.gaming {
-    margin-left: 540px;
-    font-family:'Raleway', sans-serif; 
-    color: rgb(0, 0, 0);
-  }
-  #navbar a.feedback {
-    margin-left: 660px;
+  #navbar a.shop {
+    margin-left: 530px;
     font-family:'Raleway', sans-serif; 
     color: rgb(0, 0, 0);
   }
