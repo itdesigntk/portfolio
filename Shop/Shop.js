@@ -7,7 +7,7 @@ function hide() {
 
 function validated () {
 
-    location.href = "https://tallkanvas.onuniverse.com";
+    location.href = "https://tallkanvas.onuniverse.com/store";
  
 }
 
