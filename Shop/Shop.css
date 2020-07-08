@@ -402,7 +402,7 @@ body {
 }
 .loader {
   top: 30vh;
-  left: 620px;
+  left: 560px;
   font-size: 5px;
   position: absolute;
   text-indent: -9999em;
