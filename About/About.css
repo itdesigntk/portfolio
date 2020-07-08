@@ -6,6 +6,17 @@
     top: 200vh;
     background-color: rgb(255, 255, 255);
 }
+#halftopbody {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://i.ibb.co/sRq93xm/1920x1080-minnesota.jpg);
+}
 #images {
   position: absolute;
   left: 50%;
