@@ -3,15 +3,26 @@
   }
   #body2 {
     position: absolute;
-    top: 100vh;
+    top: 0vh;
     width: 100%;
     height: 100%;
     background-color: #ffffff;
   }
+  #sidebody {
+    position: absolute;
+    top: 0vh;
+    width: 50%;
+    left: 50%;
+    height: 100%;
+    background-color:rgb(89, 192, 218, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://image.freepik.com/free-vector/social-media-marketing-concept_23-2148427346.jpg);
+  }
   #getintouch {
       position: absolute;
       top: 25vh;
-      margin-left: 200px;
+      margin-left: 100px;
       font-family: 'Raleway', sans-serif;
       font-weight: 300;
       font-size: 40px;
@@ -19,7 +30,7 @@
   #query {
     position: absolute;
     top: 34vh;
-    margin-left: 202px;
+    margin-left: 102px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -28,7 +39,7 @@
  #topic {
     position: absolute;
     top: 30vh;
-    right: 750px;
+    right: 850px;
     width: 200px;
     height: 50px;
     font-family: 'Poppins', sans-serif;
@@ -52,7 +63,7 @@
  #gotostore {
   position: absolute;
   top: 65vh;
-  margin-left: 200px;
+  margin-left: 100px;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 40px;
@@ -60,7 +71,7 @@
 #warning {
   position: absolute;
   top: 74vh;
-  margin-left: 202px;
+  margin-left: 102px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -70,7 +81,7 @@
 #visit {
   position: absolute;
   top: 70vh;
-  left: 540px;
+  left: 450px;
   width: 200px;
   height: 50px;
   font-family: 'Poppins', sans-serif;
