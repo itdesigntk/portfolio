@@ -7,7 +7,7 @@ function hide() {
 
 function validated () {
 
-    location.href = "https://tallkanvasofficial.onuniverse.com/store";
+    location.href = "https://tallkanvasofficial.onuniverse.com";
  
 }
 
@@ -108,6 +108,9 @@ function showtrue () {
   if (localStorage.getItem("validate") == "yes") {
 
     alert("Yay! You are within the free shipping zone. No shipping fees will apply.")
+    document.getElementById("topic").innerHTML = "Eligibile"
+    document.getElementById("topic").style.boxShadow = "none"
+    document.getElementById("topic").style.opacity = "0.6"
 
 }
 if (localStorage.getItem("validate") == "no") {
