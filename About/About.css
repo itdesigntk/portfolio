@@ -41,10 +41,12 @@
   position: absolute;
   top: 35px;
   left: 35px;
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 0.05em;
-  word-spacing: 0.2em;
+  font-family: 'Poppins', sans-serif;
+  padding-right: 35px;
+  word-spacing: 0.1em;
+  line-height: 1.9em;
   font-size: 22px;
+  font-weight: 500;
 }
 #View {
   position: absolute;
