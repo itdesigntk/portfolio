@@ -7,7 +7,7 @@ function hide() {
 
 function validated () {
 
-    location.href = "https://isaactsai.onuniverse.com/store";
+    location.href = "https://tallkanvasofficial.onuniverse.com/store";
  
 }
 
