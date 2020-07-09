@@ -15,7 +15,7 @@ var navbar = document.getElementById("navbar");
 var bar = document.getElementById("bar");
 var sticky = navbar.offsetTop;
 
-function myFunction() {
+function myFunction() { 
   if (window.pageYOffset >= 21) {
     navbar.classList.add("sticky")
     bar.classList.add("shadow")
@@ -40,3 +40,30 @@ function fadein () {
     } 
 
 
+
+//3 Display Projects - Plug in and works
+
+var imgback = document.getElementById("recent")
+var select = document.getElementById("selectorline")
+
+function featured() {
+
+  imgback.style.backgroundImage = "url(https://i.ibb.co/RyvcDsm/weather-clear.png)"
+  select.style.left = "25.45vw"
+  select.style.width = "85px"
+
+}
+function mostrecent() {
+
+  imgback.style.backgroundImage = "url(https://i.ibb.co/8DGQyFr/IMG-0798.jpg)"
+  select.style.left = "50.4vw"
+  select.style.width = "65px"
+
+}
+function upcoming() {
+
+  imgback.style.backgroundImage = "url(https://i.ibb.co/Pgy5q8z/IMG-0824.jpg)"
+  select.style.left = "75.45vw"
+  select.style.width = "100px"
+
+}
