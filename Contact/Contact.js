@@ -6,6 +6,12 @@ function hide() {
 }
 
 
+function dismiss () {
+  document.getElementById("choosetemplate").style.display = "none"
+}
+function dismissnow () {
+  document.getElementById("choosetemplate").style.display = "block"
+}
 
 window.onscroll = function() {myFunction()};
 
@@ -31,9 +37,11 @@ function myFunction() {
 function chooseon() {
   document.getElementById("overlaychoose").style.display = "block"
   document.getElementById("choosetemplate").style.display = "block"
+  dismissnow();
 }
 
 function chooseoff() {
   document.getElementById("overlaychoose").style.display = "none"
   document.getElementById("choosetemplate").style.display = "none"
+  
 }

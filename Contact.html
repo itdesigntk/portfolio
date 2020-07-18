@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://use.typekit.net/lvg8eam.css">
+    <link rel="icon" href="https://i.ibb.co/3fshXNb/71115273-1726182997514630-6335460461093322752-n.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Nunito:wght@300;400&family=Open+Sans&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
@@ -13,18 +15,21 @@
     <div id="body2"></div>
     <div id="sidebody"></div>
 
-    <div id="getintouch">Get in touch</div>
-    <div id="query">How can I help?</div>
-    <button id="topic" onclick="chooseon()">Choose a topic</button>
+    <div id="getintouch">CONTACT US</div>
+    <div id="query">The fastest way to get help is by using Podium. Try it now.</div>
+    <button id="topic" onclick="chooseon()">Send a text using Podium</button>
 
-    <div id="gotostore">Email me</div>
+    <div id="gotostore">EMAIL ME</div>
     <div id="warning">Send a quickie to me. Please no spam.
     </div>
 
     <button id="visit" onclick="window.location.href='mailto:tallkanvasofficial@gmail.com?';">Send an Email</button>
 
     <div id="overlaychoose" onclick="chooseoff()"></div>
-    <div id="choosetemplate"></div>
+    <div id="choosetemplate">
+        <div id="maintesttext">Please use the blue button near the bottom right of your screen. </div>
+        <div onclick="dismiss()" id="dismiss">Ok, gotcha</div>
+    </div>
     
 
     <div id="navbar">
@@ -39,6 +44,11 @@
         </div>
     </div> 
 
+    <img id="contactgraphic" src="https://i.ibb.co/Gx1r402/Contact-Girl-Graphic-Design.png">
+
+   
+    <script defer src="https://connect.podium.com/widget.js#API_TOKEN=974068d0-0da2-4008-a0db-623d2c8c5be6" id="podium-widget" data-api-token="974068d0-0da2-4008-a0db-623d2c8c5be6"></script>
+    
 </body>
 <script src="Contact/Contact.js"></script>
 </html>
