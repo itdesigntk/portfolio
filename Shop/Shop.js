@@ -34,7 +34,6 @@ function myFunction() {
 }
 
 function chooseon() {
-  document.getElementById("overlaychoose").style.display = "block"
   document.getElementById("choosetemplate").style.display = "block"
   document.getElementById("Card1").style.display = "block"
   document.getElementById("Card2").style.display = "block"
@@ -48,7 +47,7 @@ function chooseon22 () {
   loader.style.display = "block"
   document.getElementById("topic").style.display = "none"
 
-  setTimeout(getLocation, 1000);
+  setTimeout(getLocation, 500);
 }
 
 function chooseoff() {
@@ -112,6 +111,11 @@ function showtrue () {
     document.getElementById("topic").style.boxShadow = "none"
     document.getElementById("topic").style.opacity = "0.6"
 
+    window.scroll({
+      top: 1500, 
+      left: 0, 
+      behavior: 'smooth'
+    });
 }
 if (localStorage.getItem("validate") == "no") {
 

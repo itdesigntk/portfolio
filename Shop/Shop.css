@@ -131,13 +131,15 @@ body {
    position: relative;
    left: 50%;
    margin-left: -45vw;
-   bottom: -12vh;
-   display: none;
+   top: 100vh;
+   display: block;
    width: 90vw;
    height: 75vh;
    background-color: white;
    border-radius: 7px;
    z-index: 1000;
+   box-shadow:0 3px 15px 0 rgba(0, 0, 0, 0.15);
+   box-shadow: none;
 
    animation: fadeIn ease 1s;
    -webkit-animation: fadeIn ease 1s;
@@ -206,20 +208,19 @@ body {
   position: absolute;
   top: 50%;
   margin-top: -30px;
-  left: 40%;
-  margin-left: -113px;
+  left: 50%;
+  margin-left: -85.96px;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: 800; 
   z-index: 1000;
-  width: 200px;
 }
 #para2 {
   position: absolute;
   top: 60%;
-  margin-top: -15px;
+  margin-top: -10px;
   left: 50%;
-  margin-left: -270px;
+  margin-left: -110px;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 500; 
@@ -230,12 +231,11 @@ body {
 }
 #time {
   position: relative;
-  top: 15vh;
+  top: 11vh;
   left: 50%;
-  margin-left: -213px;
+  margin-left: -50px;
   width: 100px;
   height: 100px;
-  z-index: 2000;
 }
  #Card3 {
   position: absolute;
@@ -249,6 +249,17 @@ body {
   z-index: 1000;
   box-shadow:0 3px 15px 0 rgba(0, 0, 0, 0.15);
  }
+ #head3 {
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  left: 50%;
+  margin-left: -69.955px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 800; 
+  z-index: 1000;
+}
  #Card4 {
   position: absolute;
   right: 2vw;
