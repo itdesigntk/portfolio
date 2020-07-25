@@ -5,6 +5,8 @@ function hide() {
 
     bar.style.opacity = "0.001"
     document.getElementById("tile").style.marginTop = "block"
+    document.getElementById("descriptionrecent").style.display = "none"
+    document.getElementById("descriptionupcoming").style.display = "none"
 
     
 }
@@ -48,22 +50,34 @@ var select = document.getElementById("selectorline")
 
 function featured() {
 
+  localStorage.setItem("projectnameclick", "featured")
   imgback.style.backgroundImage = "url(https://i.ibb.co/RyvcDsm/weather-clear.png)"
   select.style.left = "25.45vw"
   select.style.width = "85px"
+  document.getElementById("descriptionfeatured").style.display = "block"
+  document.getElementById("descriptionrecent").style.display = "none"
+  document.getElementById("descriptionupcoming").style.display = "none"
 
 }
 function mostrecent() {
 
-  imgback.style.backgroundImage = "url(https://i.ibb.co/8DGQyFr/IMG-0798.jpg)"
+  localStorage.setItem("projectnameclick", "recent")
+  imgback.style.backgroundImage = "url(https://i.ibb.co/rQ5FTd8/IMG-0781-burned.png)"
   select.style.left = "50.4vw"
   select.style.width = "65px"
+  document.getElementById("descriptionrecent").style.display = "block"
+  document.getElementById("descriptionupcoming").style.display = "none"
+  document.getElementById("descriptionfeatured").style.display = "none"
 
 }
 function upcoming() {
 
-  imgback.style.backgroundImage = "url(https://i.ibb.co/Pgy5q8z/IMG-0824.jpg)"
+  localStorage.setItem("projectnameclick", "upcoming")
+  imgback.style.backgroundImage = "url(https://www.signaturehardware.com/media/catalog/product/cache/1/image/1500x/9df78eab33525d08d6e5fb8d27136e95/3/1/313317-three-tier-teak-towel-shelf_1.jpg)"
   select.style.left = "75.45vw"
   select.style.width = "100px"
+  document.getElementById("descriptionupcoming").style.display = "block"
+  document.getElementById("descriptionfeatured").style.display = "none"
+  document.getElementById("descriptionrecent").style.display = "none"
 
 }

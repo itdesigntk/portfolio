@@ -3,21 +3,22 @@
     width: 100%;
     height: 100%;
     left: 0px;
-    top: 200vh;
+    top: 100vh;
     background-color: rgb(255, 255, 255);
 }
-#halftopbody {
+#halfsidebody {
   position: absolute;
-  top: 0px;
+  top: 250px;
   left: 0px;
   width: 100%;
   height: 100%;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(https://i.ibb.co/sRq93xm/1920x1080-minnesota.jpg);
+  background-image: url(https://i.ibb.co/47GRYzn/Business-team-discussing-new-ideas-and-innovations-Group-of-people-growing-lightbulb-plant-Vector-il.jpg);
 }
 #images {
+  display: none;
   position: absolute;
   left: 50%;
   margin-left: -144px;
@@ -25,23 +26,22 @@
 }
 #maintitle {
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: 50%;
-  margin-left: -225px;
-  width: 450px;
+  margin-left: -180px;
   height: 100px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
   font-size: 80px;
   
 }
 #content {
   position: relative;
   left: 50%;
-  margin-left: -25vw;
-  top: 65vh;
-  height: 700px;
-  width: 50vw;
+  margin-left: -20vw;
+  top: 115vh;
+  height: 500px;
+  width: 40vw;
   border-radius: 8px;
   background-color: white;
   outline: rgba(160, 101, 101, 0.901);
@@ -52,7 +52,7 @@
   position: absolute;
   top: 35px;
   left: 35px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Barlow', sans-serif;
   padding-right: 35px;
   word-spacing: 0.1em;
   line-height: 1.9em;
@@ -63,32 +63,20 @@
   position: absolute;
   right: 55px;
   bottom: 35px;
-  background-color: rgb(204, 225, 226, 0.8);
-  border: none;
-  border-radius: 5px;
+  background-color: rgba(255, 255, 255);
+  border: black;
+  border-style: solid;
   width: 200px;
   height: 50px;
-  box-shadow:0 4px 7px 0 rgba(0, 0, 0, 0.20);
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  transition: ease 0.3s;
+  transition: ease 0.4s;
 }
 #View:hover {
   cursor: pointer;
-  padding-right: 24px;
-  padding-left:8px;
-}
-#View:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;  
-  top: 2.0vh;
-  right: -1vw;
-  transition: 0.5s;
-}
-#View:hover:after {
-  opacity: 1;
-  right: 2.2vw;
+  color: rgb(255, 255, 255);
+  background-color: #8EDDF5;
+  border: #8EDDF5;
 }
 #View:focus {
   outline: none;
@@ -181,4 +169,62 @@
   }
   .content {
     padding: 16px;
+  }
+  #footermain {
+    position: absolute;
+    top: 200vh;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(241, 241, 241);
+    z-index: 10000;
+  }
+  #containerholdericons {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    right: 2vw;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(126, 38, 38, 0.001);
+  }
+  #tktitle {
+    position: relative;
+    margin-left: 3.34%;
+    margin-top: 43.2px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+  }
+  #instagram {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  #instagram:hover {
+    cursor: pointer;
+  }
+  #youtube {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    right: 63px;
+    width: 42.509px;
+    height: 30px;
+  }
+  #youtube:hover {
+    cursor: pointer;
+  }
+  #twitter {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    right: 125px;
+    width: 30px;
+    height: 30px;
+  }
+  #twitter:hover {
+    cursor: pointer;
   }

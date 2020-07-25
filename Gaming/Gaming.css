@@ -174,3 +174,61 @@
   .content {
     padding: 16px;
   }
+  #footermain {
+    position: absolute;
+    top: 200vh;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(241, 241, 241);
+    z-index: 10000;
+  }
+  #containerholdericons {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    right: 2vw;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(126, 38, 38, 0.001);
+  }
+  #tktitle {
+    position: relative;
+    margin-left: 3.34%;
+    margin-top: 43.2px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+  }
+  #instagram {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  #instagram:hover {
+    cursor: pointer;
+  }
+  #youtube {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    right: 63px;
+    width: 42.509px;
+    height: 30px;
+  }
+  #youtube:hover {
+    cursor: pointer;
+  }
+  #twitter {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    right: 125px;
+    width: 30px;
+    height: 30px;
+  }
+  #twitter:hover {
+    cursor: pointer;
+  }

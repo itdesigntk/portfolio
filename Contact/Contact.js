@@ -38,10 +38,12 @@ function chooseon() {
   document.getElementById("overlaychoose").style.display = "block"
   document.getElementById("choosetemplate").style.display = "block"
   dismissnow();
+  document.getElementById("podium-website-widget").style.display = "block"
 }
 
 function chooseoff() {
   document.getElementById("overlaychoose").style.display = "none"
   document.getElementById("choosetemplate").style.display = "none"
+  document.getElementById("podium-website-widget").style.display = "none"
   
 }
