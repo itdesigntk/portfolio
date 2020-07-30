@@ -46,8 +46,35 @@
   background-color: white;
   outline: rgba(160, 101, 101, 0.901);
   box-shadow:0 5px 10px 0 rgba(0, 0, 0, 0.15);
-  
 }
+@media only screen and (min-width: 1700px) {
+  #content {
+    position: relative;
+    left: 50%;
+    margin-left: -20vw;
+    top: 105vh;
+    height: 600px;
+    width: 40vw;
+    border-radius: 8px;
+    background-color: white;
+    outline: rgba(160, 101, 101, 0.901);
+    box-shadow:0 5px 10px 0 rgba(0, 0, 0, 0.15);
+  }
+} 
+@media only screen and (max-width: 1500px) {
+  #content {
+    position: relative;
+    left: 50%;
+    margin-left: -25vw;
+    top: 105vh;
+    height: 600px;
+    width: 50vw;
+    border-radius: 8px;
+    background-color: white;
+    outline: rgba(160, 101, 101, 0.901);
+    box-shadow:0 5px 10px 0 rgba(0, 0, 0, 0.15);
+  }
+} 
 #text-main {
   position: absolute;
   top: 35px;
@@ -158,6 +185,13 @@
     font-family: 'Raleway', sans-serif;  
     color: rgb(0, 0, 0);
   }
+  @media only screen and (min-width: 1700px) {
+    #navbar a.contact {
+      right: 70px;
+      font-family: 'Raleway', sans-serif;  
+      color: rgb(0, 0, 0);
+    }
+  } 
   .sticky {
     position: fixed;
     top: -5px;

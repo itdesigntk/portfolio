@@ -245,6 +245,13 @@ body {
     font-family: 'Raleway', sans-serif;  
     color: rgb(0, 0, 0);
   }
+  @media only screen and (min-width: 1700px) {
+    #navbar a.contact {
+      right: 70px;
+      font-family: 'Raleway', sans-serif;  
+      color: rgb(0, 0, 0);
+    }
+  } 
   .sticky {
     position: fixed;
     top: -5px;

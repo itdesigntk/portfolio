@@ -11,27 +11,40 @@ body {
   #sidebody {
     position: absolute;
     top: 0vh;
-    width: 50%;
-    left: 50%;
+    width: 100%;
+    left: 0%;
     height: 100%;
     background-color:rgba(255, 255, 255, 0.5);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
-    background-image: url(https://image.freepik.com/free-vector/people-buying-online_24908-55875.jpg);
+    background-position: right;
+    background-image: url(https://i.ibb.co/YR0By4V/Hand-choosing-groceries-online-Fruit-vegetable-market-flat-vector-illustration-E-commerce-and-digita.jpg);
+  }
+  #sidebodylayer {
+    position: absolute;
+    top: 0vh;
+    width: 100%;
+    left: 0%;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.5);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-image: url(https://i.ibb.co/qsBqcjf/Cropped-Refinde.png);
   }
   #getintouch {
-      position: absolute;
-      top: 25vh;
-      margin-left: 150px;
-      font-family: 'Raleway', sans-serif;
-      font-weight: 300;
-      font-size: 40px;
+    position: absolute;
+    top: 25vh;
+    margin-left: 100px;
+    font-family: urbane-rounded, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
   }
   #query {
     position: absolute;
     top: 34vh;
-    margin-left: 152px;
+    margin-left: 102px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -46,39 +59,39 @@ body {
     height: 50px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    border: none;
+    border: rgb(0, 0, 0);
+    border-style: solid;
     border-radius: 4px;
-    background-color: rgb(89, 192, 218, 0.5);
-    box-shadow:0 3px 10px 0 rgba(0, 0, 0, 0.15);
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
  }
  #topic:hover {
-     cursor: pointer;
-     background-color: rgb(89, 192, 218, 0.45);
- }
- #topic:active {
-   top: 30.2vh;
-   box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    border: rgb(89, 192, 218, 0.5);
+    background-color:  rgb(89, 192, 218, 0.5);
+    color: white;
  }
  #topic:focus {
    outline: none;
  }
  #gotostore {
-    position: absolute;
-    top: 65vh;
-    margin-left: 150px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    font-size: 40px;
+  position: absolute;
+  top: 65vh;
+  margin-left: 100px;
+  font-family: urbane-rounded, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 40px;
  }
  #warning {
-    position: absolute;
-    top: 74vh;
-    margin-left: 152px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: rgb(105, 105, 105);
-    width: 300px;
+  position: absolute;
+  top: 74vh;
+  margin-left: 102px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(105, 105, 105);
+  width: 260px;
 }
 #visit {
     position: absolute;
@@ -88,18 +101,17 @@ body {
     height: 50px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    border: none;
+    border: rgb(0, 0, 0);
+    border-style: solid;
     border-radius: 4px;
-    background-color: rgb(89, 192, 218, 0.5);
-    box-shadow:0 3px 10px 0 rgba(0, 0, 0, 0.15);
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
  }
  #visit:hover {
-     cursor: pointer;
-     background-color: rgb(89, 192, 218, 0.45);
- }
- #visit:active {
-   top: 70.2vh;
-   box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    border: rgb(89, 192, 218, 0.5);
+    background-color:  rgb(89, 192, 218, 0.5);
+    color: white;
  }
  #visit:focus {
    outline: none;
@@ -148,10 +160,10 @@ body {
  }
  #Card1 {
   position: absolute;
-  left: 2vw;
+  left: 5vw;
   top: 4vh;
   display: block;
-  width: 20vw;
+  width: 80vw;
   height: 67vh;
   background-color: rgb(255, 255, 255);
   border-radius: 7px;
@@ -160,114 +172,73 @@ body {
  }
  #head1 {
    position: absolute;
-   top: 50%;
+   top: 20%;
    margin-top: -30px;
-   left: 50%;
-   margin-left: -70px;
+   right: 30%;
+   margin-right: -100px;
    font-family: 'Poppins', sans-serif;
-   font-size: 20px;
+   font-size: 35px;
    font-weight: 800; 
    z-index: 100;
  }
  #para1 {
   position: absolute;
-  top: 60%;
+  top: 35%;
   margin-top: -10px;
-  left: 50%;
-  margin-left: -110px;
+  right: 40%;
+  margin-right: -125px;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 500; 
-  width: 220px;
-;
+  width: 350px;
   text-align: center;
   line-height: 1.7em;
+  display: list-item;                                                    
+  list-style-type: disc;      
+  list-style-position: inside;
  }
  #delivery {
    position: relative;
-   top: 5vh;
-   left: 50%;
-   margin-left: -110px;
-   width: 200px;
-   height: 200px;
+   top: 3vh;
+   left: 10%;
+   margin-left: -50px;
+   width: 400px;
+   height: 400px  ;
  }
- #Card2 {
-  position: absolute;
-  left: 24vw;
-  top: 4vh;
-  display: block;
-  width: 20vw;
-  height: 67vh;
-  background-color: rgb(255, 255, 255);
-  border-radius: 7px;
-  box-shadow:0 3px 15px 0 rgba(0, 0, 0, 0.15);
- }
- #head2 {
-  position: absolute;
-  top: 50%;
-  margin-top: -30px;
-  left: 50%;
-  margin-left: -85.96px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-  font-weight: 800; 
-  z-index: 1000;
-}
 #para2 {
   position: absolute;
-  top: 60%;
+  top: 55%;
   margin-top: -10px;
-  left: 50%;
-  margin-left: -110px;
+  right: 40%;
+  margin-right: -135px;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 500; 
-  width: 220px;
+  width: 350px;
   z-index: 1000;
   text-align: center;
   line-height: 1.7em;
+  display: list-item;                                                    
+  list-style-type: disc;      
+  list-style-position: inside;
 }
-#time {
-  position: relative;
-  top: 11vh;
-  left: 50%;
-  margin-left: -50px;
-  width: 100px;
-  height: 100px;
-}
- #Card3 {
+#para3 {
   position: absolute;
-  right: 24vw;
-  top: 4vh;
-  display: block;
-  width: 20vw;
-  height: 67vh;
-  background-color: rgb(255, 255, 255);
-  border-radius: 7px;
-  box-shadow:0 3px 15px 0 rgba(0, 0, 0, 0.15);
- }
- #head3 {
-  position: absolute;
-  top: 50%;
-  margin-top: -30px;
-  left: 50%;
-  margin-left: -69.955px;
+  top: 75%;
+  margin-top: -10px;
+  right: 40%;
+  margin-right: -138px;
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-  font-weight: 800; 
+  font-size: 14px;
+  font-weight: 500; 
+  width: 350px;
   z-index: 1000;
+  text-align: left;
+  line-height: 1.7em;
+  display: list-item;                                                    
+  list-style-type: disc;      
+  list-style-position: inside;
 }
- #Card4 {
-  position: absolute;
-  right: 2vw;
-  top: 4vh;
-  display: block;
-  width: 20vw;
-  height: 67vh;
-  background-color: rgb(255, 255, 255);
-  border-radius: 7px;
-  box-shadow:0 3px 15px 0 rgba(0, 0, 0, 0.15);
- }
  @keyframes fadeIn {
   0% {
     opacity:0;
@@ -389,6 +360,13 @@ body {
   font-family: 'Raleway', sans-serif;  
   color: rgb(0, 0, 0);
 }
+@media only screen and (min-width: 1700px) {
+  #navbar a.contact {
+    right: 70px;
+    font-family: 'Raleway', sans-serif;  
+    color: rgb(0, 0, 0);
+  }
+} 
 .sticky {
   position: fixed;
   top: -5px;

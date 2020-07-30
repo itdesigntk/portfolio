@@ -112,7 +112,7 @@ function showtrue () {
     document.getElementById("topic").style.opacity = "0.6"
 
     window.scroll({
-      top: 1500, 
+      top: 700, 
       left: 0, 
       behavior: 'smooth'
     });
