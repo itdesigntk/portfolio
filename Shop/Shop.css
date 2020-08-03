@@ -11,8 +11,8 @@ body {
   #sidebody {
     position: absolute;
     top: 0px;
-    width: 50%;
-    height: auto;
+    width: 100%;
+	height: 100%;
     left: 50%;
     background-color:rgba(255, 255, 255, 0.5);
     background-repeat: no-repeat;
@@ -20,6 +20,7 @@ body {
     background-image: url(https://i.ibb.co/YR0By4V/Hand-choosing-groceries-online-Fruit-vegetable-market-flat-vector-illustration-E-commerce-and-digita.jpg);
   }
   #sidebodylayer {
+	display: none;
     position: absolute;
     top: 0vh;
     width: 100%;
