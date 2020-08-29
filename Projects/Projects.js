@@ -26,6 +26,21 @@ function myFunction() {
   }
 }
 
+
+
+      var mainCard = document.getElementById("mainCard") 
+      var tiletwo = document.getElementById("tile2")
+      var tilethree = document.getElementById("tile3")
+      var tilefour = document.getElementById("tile4")
+      var tilefive = document.getElementById("tile5")
+      var tilesix = document.getElementById("tile6")
+      var tileseven = document.getElementById("tile7")
+      var tileeight = document.getElementById("tile8")
+      var tilenine = document.getElementById("tile9")
+
+
+
+
 function expandTile1() {
 
   var visibility = document.getElementById("mainCard").style.display    
@@ -43,31 +58,31 @@ function expandTile1() {
     default: 
       alert("default case triggered")
 
-    case "none":
-
-      document.getElementById("mainCard").style.display = "block"
-      document.getElementById("tile2").style.display = "none"
-      document.getElementById("tile3").style.display = "none"
-      document.getElementById("tile4").style.display = "none"
-      document.getElementById("tile5").style.display = "none"
-      document.getElementById("tile6").style.display = "none"
-      document.getElementById("tile7").style.display = "none"
-      document.getElementById("tile8").style.display = "none"
-      document.getElementById("tile9").style.display = "none"    
-      break;
+	case "none":
+    
+    mainCard.style.display = "block"
+    tiletwo.style.display = "none"
+    tilethree.style.display = "none"
+    tilefour.style.display = "none"
+    tilefive.style.display = "none"
+    tilesix.style.display = "none"
+    tileseven.style.display = "none"
+    tileeight.style.display = "none"
+    tilenine.style.display = "none"    
+    break;
 
     case "block":
 
-      document.getElementById("mainCard").style.display = "none"
-      document.getElementById("tile2").style.display = "block"
-      document.getElementById("tile3").style.display = "block"
-      document.getElementById("tile4").style.display = "block"
-      document.getElementById("tile5").style.display = "block"
-      document.getElementById("tile6").style.display = "block"
-      document.getElementById("tile7").style.display = "block"
-      document.getElementById("tile8").style.display = "block"
-      document.getElementById("tile9").style.display = "block"
-      break;
+    mainCard.style.display = "none"
+    tiletwo.style.display = "block"
+    tilethree.style.display = "block"
+    tilefour.style.display = "block"
+    tilefive.style.display = "block"
+    tilesix.style.display = "block"
+    tileseven.style.display = "block"
+    tileeight.style.display = "block"
+    tilenine.style.display = "block" 
+    break;
 
   }
 
