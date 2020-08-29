@@ -23,6 +23,36 @@ body {
   font-size: 65px;
   font-weight: 300;
 }
+#mainCard {
+  position: absolute;
+  display: none;
+  top: 55vh;
+  left: 50%;
+  margin-left: -46.5vw;
+  width: 93vw;
+  height: 70vh;
+  background-color: rgb(236, 236, 236);
+  border-radius: 4px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.35); 
+
+}
+#Title{
+  position: absolute;
+  font-family: 'Barlow', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  left: 477px;
+  top: 8vh;
+}
+#paraCard{
+  position: absolute;
+  font-family: 'Barlow', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  left: 477px;
+  top: 17vh;
+  z-index: 100;
+}
 .ninebynine {
     position: relative;
     top: 60vh;
@@ -43,7 +73,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(https://target.scene7.com/is/image/Target/GUEST_58003170-16b2-4bd4-9532-f2019fc5b486?wid=488&hei=488&fmt=pjpeg);
+    background-image: url(../Images/LLSBiggerShdwOFFCropped.png) ;
     background-color: rgb(236, 236, 236);
     transition: 0.5s;
     cursor: pointer;
