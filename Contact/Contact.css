@@ -323,8 +323,8 @@
   position: absolute;
   top: 50%;
   margin-top: -330px;
-  left: 50%;
-  margin-left: -120px;
+  right: 10%;
+  margin-right: -250px;
   width: 1000px;
   height: 666.88px;
 }
